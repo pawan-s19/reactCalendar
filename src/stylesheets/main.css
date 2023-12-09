@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#root{
+
+    height: 100%;
+    width: 100%;
+    padding: 2rem
+}
+.calendar-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.time-range{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.time-picker{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.time-picker p{
+    margin-top: 1rem;
+}
+.selected-dates .date-badge{
+    cursor: pointer;
+}
