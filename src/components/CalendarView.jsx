@@ -118,7 +118,6 @@ function CalendarView() {
 
     if (!isChecked) {
       for (let i = 0; i < validateArray.length; i++) {
-        console.log(toTime, validateArray[i].to.value);
         if (validateArray[i].type === "allSlots") {
           return toast.error(
             "All the time slots have already been selected already"
