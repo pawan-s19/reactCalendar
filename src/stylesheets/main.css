@@ -38,3 +38,16 @@ html,body{
 .selected-dates .date-badge{
     cursor: pointer;
 }
+.header-row{
+    text-align: center;
+}
+.sr-header{
+    width: 4rem;
+}
+
+.dates-header{
+    width: 20rem;
+}
+.action-header{
+    width: 5rem;
+}
